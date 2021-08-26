@@ -18,6 +18,10 @@ endif
 
 hi Pmenu ctermbg=gray guibg=gray
 hi SignColumn ctermbg=black guibg=black
+hi TabLine ctermbg=black guibg=black
+" space between tabs and the right margin
+hi TabLineFill ctermfg=black guifg=black
+hi TabLineSel ctermbg=black guibg=black
 
 let colors_name = "betterdefault"
 
